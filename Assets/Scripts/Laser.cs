@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class Laser : MonoBehaviour {
-
+	public int damage;
 	// Use this for initialization
 	void Start () {
 	

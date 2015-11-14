@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour {
 		xMin = Camera.main.ViewportToWorldPoint(new Vector3(0,0,-10)).x + padding;
 		xMax = Camera.main.ViewportToWorldPoint(new Vector3(1,0,-10)).x - padding;
 		Debug.Log(xMin + " " + xMax);
-
+		print ("Welcome to Laser Defender-" + this);
 	}
 	
 	// Update is called once per frame
